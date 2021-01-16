@@ -1,0 +1,21 @@
+nav {
+  background-color: green;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+ul li {
+  margin: 0 20px;
+  transition: 0.2s;
+  color: white;
+  cursor: pointer;
+}
+
+ul li:hover {
+  transform: scale(1.2);
+}

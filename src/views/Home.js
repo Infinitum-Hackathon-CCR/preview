@@ -5,10 +5,7 @@ import Footer from '../components/Footer.js'
 class Home extends Component {
   render() { 
     return (
-      <main>
-        <Header />
-        <Footer />
-      </main>
+      <p>Nada</p>
     );
   }
 }
