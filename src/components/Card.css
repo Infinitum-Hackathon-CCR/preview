@@ -7,6 +7,13 @@
   margin: 20px;
   border-radius: 6px;
   overflow: hidden;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.3);
 }
 
 .card-thumbnail {
